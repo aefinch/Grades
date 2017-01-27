@@ -18,8 +18,7 @@ for (var i=0; i<numOfGrades; i++) {
 		grades.push("F");
 	}
 }
-console.log(scores);
-console.log(grades);
+
 var a=0;
 var b=0;
 var c=0;
@@ -48,7 +47,5 @@ var sort_scores = scores.sort(function(a,b){
 	return b - a;
 });
 var sort_grades = grades.sort();
-console.log(sort_scores);
-console.log(sort_grades);
 console.log("The lowest grade is a", sort_scores[numOfGrades-1], sort_grades[numOfGrades-1]);
 console.log("The highest grade is a", sort_scores[0], sort_grades[0]);
