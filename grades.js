@@ -1,6 +1,6 @@
 var scores = [82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87];
-var grades = []
-var numOfGrades=scores.length
+var grades = [];
+var numOfGrades=scores.length;
 for (var i=0; i<numOfGrades; i++) {
 	if (scores[i]>90){
 		grades.push("A");
